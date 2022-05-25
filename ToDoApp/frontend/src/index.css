@@ -1,0 +1,88 @@
+body{
+  margin:0;
+  padding:0;
+  background-color: cadetblue;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:60%;
+  padding:1vw;
+  margin: auto auto;
+  margin-top: 5vw;
+  border:1px solid;
+  border-radius: 0.25rem;
+  background-color: whitesmoke;
+  box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.6);
+}
+.search-bar{
+  width:80%;
+  padding: 1vw;
+  display: flex;
+  flex-direction: column;
+}
+.search-bar input{
+  font-size: 1.5em;
+  padding: 0.5rem;
+}
+.search-bar button{
+  margin-top: 2vw;
+  padding: 0.5em;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.10rem;
+  cursor: pointer;
+  transition: all 0.2s linear;
+  background-color:dodgerblue;
+  color: white;
+  border-radius: 0.25rem;
+}
+.search-bar button:hover{
+  background-color: firebrick;
+}
+.list{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1vw;
+}
+.item{
+  border: 1px solid;
+  border-radius: 0.25rem;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1vw;
+  margin-top: 1vw;
+  background-color: antiquewhite;
+}
+.item-content{
+  width:70%;
+  cursor: pointer;
+  background-color: antiquewhite;
+  border:none;
+}
+.item button{
+  width:10%;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.25rem;
+}
+.edit{
+  background-color: cornflowerblue;
+  color: aliceblue;
+}
+.delete{
+  background-color: coral;
+  color: white;
+}
+.add-strike-through{
+  text-decoration-line:line-through; 
+}
+.error{
+  color: red;
+}
